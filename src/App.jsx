@@ -344,7 +344,7 @@ export default function App() {
               <div className="flex flex-col md:flex-row justify-between mb-4 pb-4 border-b border-neutral-800/50">
                 <div>
                   <p className="text-white font-bold text-lg">Kit de Vigilancia Solar</p>
-                  <p className="text-neutral-500 text-sm mt-1 max-w-lg">4 Cámaras, 4 Memorias, 1 Repetidor Wi-Fi y 2 Postes Metálicos ($17.000 c/u).</p>
+                  <p className="text-neutral-500 text-sm mt-1 max-w-lg">4 Cámaras Solares ($95.000 c/u), 4 Memorias, 1 Repetidor Wi-Fi y 2 Postes Metálicos ($17.000 c/u).</p>
                   <p className="text-amber-500 text-xs mt-2 font-bold tracking-widest uppercase">Llegada estimada: 7 a 12 días tras la compra</p>
                 </div>
                 <p className="text-white font-bold text-xl mt-2 md:mt-0">$529.000</p>
@@ -353,15 +353,15 @@ export default function App() {
               <div className="flex flex-col md:flex-row justify-between mb-6">
                 <div>
                   <p className="text-white font-bold text-lg">Kit Internet Starlink</p>
-                  <p className="text-neutral-500 text-sm mt-1 max-w-lg">Antena, Soporte original de pared, Envío y Primer mes pagado.</p>
+                  <p className="text-neutral-500 text-sm mt-1 max-w-lg">Antena Starlink completa, Base de colgar, Envío y Primer mes pagado.</p>
                   <p className="text-amber-500 text-xs mt-2 font-bold tracking-widest uppercase">Llegada estimada: 2 a 4 semanas tras la compra</p>
                 </div>
-                <p className="text-white font-bold text-xl mt-2 md:mt-0">$423.900</p>
+                <p className="text-white font-bold text-xl mt-2 md:mt-0">$425.000</p>
               </div>
 
               <div className="bg-neutral-900 p-4 rounded-xl flex justify-between items-center border border-neutral-800">
                 <p className="text-neutral-400 uppercase text-sm font-bold">Total Equipos:</p>
-                <p className="text-amber-500 font-black text-2xl">$952.900</p>
+                <p className="text-amber-500 font-black text-2xl">$954.000</p>
               </div>
             </div>
 
@@ -373,7 +373,8 @@ export default function App() {
 
               <div className="space-y-4 mb-6">
                 {[
-                  { label: 'Instalación de 4 cámaras solares con fijación a postes', price: '$60.000' },
+                  { label: 'Instalación de 4 cámaras solares con fijación a postes ($35.000 c/u)', price: '$140.000' },
+                  { label: 'Instalación Antena Starlink', price: '$110.000' },
                   { label: 'Configuración de red Starlink + repetidor Wi-Fi', price: '$40.000' },
                   { label: 'Configuración de acceso remoto desde celular (app)', price: '$20.000' },
                   { label: 'Traslado a terreno (Vara Gruesa, Linares)', price: '$30.000' },
@@ -390,7 +391,7 @@ export default function App() {
 
               <div className="bg-neutral-900 p-4 rounded-xl flex justify-between items-center border border-neutral-800">
                 <p className="text-neutral-400 uppercase text-sm font-bold">Total Mano de Obra:</p>
-                <p className="text-amber-500 font-black text-2xl">$150.000</p>
+                <p className="text-amber-500 font-black text-2xl">$340.000</p>
               </div>
             </div>
 
@@ -402,7 +403,7 @@ export default function App() {
                   <p className="text-neutral-500 text-xs">Equipos + Instalación completa lista para usar</p>
                 </div>
                 <div className="text-right">
-                  <p className="text-amber-400 font-black text-5xl drop-shadow-[0_0_20px_rgba(245,158,11,0.5)]">$1.102.900</p>
+                  <p className="text-amber-400 font-black text-5xl drop-shadow-[0_0_20px_rgba(245,158,11,0.5)]">$1.294.000</p>
                   <p className="text-neutral-500 text-xs mt-1">IVA incluido</p>
                 </div>
               </div>
