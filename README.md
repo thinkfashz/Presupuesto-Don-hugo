@@ -1,16 +1,41 @@
-# React + Vite
+# Presupuesto Don Hugo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación de presupuesto construida con **React + Vite**.
 
-Currently, two official plugins are available:
+## 🚀 Demo en vivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Una vez activado GitHub Pages (ver más abajo), la app estará disponible en:
 
-## React Compiler
+**https://thinkfashz.github.io/Presupuesto-Don-hugo/**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👀 Previsualizar sin instalar nada
 
-## Expanding the ESLint configuration
+Puedes abrir y ejecutar el proyecto directamente en el navegador, sin instalar nada localmente:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/thinkfashz/Presupuesto-Don-hugo)
+- [![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/thinkfashz/Presupuesto-Don-hugo/main)
+- [Abrir en github.dev](https://github.dev/thinkfashz/Presupuesto-Don-hugo) (o pulsa la tecla `.` sobre el repo)
+
+## 🛠️ Desarrollo local
+
+```bash
+npm install
+npm run dev      # servidor de desarrollo
+npm run build    # build de producción
+npm run preview  # previsualizar el build
+npm run lint     # ejecutar ESLint
+```
+
+## 🌐 Despliegue en GitHub Pages
+
+El repositorio incluye un workflow en `.github/workflows/deploy.yml` que compila la app y la publica en GitHub Pages automáticamente con cada push a `main`.
+
+### Activación (solo la primera vez)
+
+1. Ve a **Settings → Pages** en el repositorio.
+2. En **Source**, selecciona **"GitHub Actions"**.
+3. Haz un push a `main` (o ejecuta el workflow manualmente desde la pestaña *Actions*).
+4. Cuando termine el job, el link aparecerá en *Settings → Pages* y en el environment **github-pages**.
+
+> El proyecto está configurado con `base: '/Presupuesto-Don-hugo/'` en `vite.config.js` para que los assets carguen correctamente bajo la ruta del repositorio en GitHub Pages.
+
